@@ -1,0 +1,125 @@
+.legal-page-container {
+  min-height: 100vh;
+  background-color: #F8FAFC;
+  display: flex;
+  flex-direction: column;
+}
+
+.legal-header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E2E8F0;
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.legal-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  color: #334155;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  margin-left: -16px;
+}
+
+.legal-back-btn:hover {
+  background: #F1F5F9;
+  color: #0F172A;
+}
+
+.legal-content {
+  flex: 1;
+  padding: 48px 0 64px;
+}
+
+.legal-text-wrapper {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 48px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.legal-text-wrapper h1 {
+  font-size: 32px;
+  color: #0F172A;
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  border-bottom: 2px solid #F1F5F9;
+  padding-bottom: 24px;
+}
+
+.legal-text-wrapper h2 {
+  font-size: 20px;
+  color: #1E293B;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.legal-text-wrapper p {
+  font-size: 16px;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.legal-text-wrapper ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 24px;
+}
+
+.legal-text-wrapper li {
+  font-size: 16px;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.legal-text-wrapper li::before {
+  content: "•";
+  color: #2563EB;
+  font-weight: bold;
+  position: absolute;
+  left: 8px;
+  top: 0;
+}
+
+.legal-text-wrapper li strong {
+  color: #0F172A;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .legal-content {
+    padding: 24px 0 48px;
+  }
+  
+  .legal-text-wrapper {
+    padding: 24px;
+    border-radius: 12px;
+  }
+  
+  .legal-text-wrapper h1 {
+    font-size: 24px;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .legal-text-wrapper h2 {
+    font-size: 18px;
+  }
+}

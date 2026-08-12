@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://189prep.uz/sitemap.xml

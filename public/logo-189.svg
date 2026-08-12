@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 160" width="100%" height="100%">
+  <defs>
+    <!-- Traditional Uzbek Khan-Atlas Adras Ikat Pattern Definition -->
+    <pattern id="uzbekIkat" width="80" height="80" patternUnits="userSpaceOnUse" patternTransform="rotate(15)">
+      <!-- Deep Indigo Base -->
+      <rect width="80" height="80" fill="#1E1B4B" />
+      
+      <!-- Ikat Magenta & Fuchsia Waves -->
+      <path d="M0,10 Q20,0 40,10 T80,10 L80,25 Q60,15 40,25 T0,25 Z" fill="#BE185D" />
+      <path d="M0,15 L10,5 L20,15 L30,5 L40,15 L50,5 L60,15 L70,5 L80,15 L80,28 L70,18 L60,28 L50,18 L40,28 L30,18 L20,28 L10,18 L0,28 Z" fill="#E11D48" />
+
+      <!-- Turquoise & Cyan Diamond Ikat Motifs -->
+      <polygon points="20,40 30,25 40,40 30,55" fill="#06B6D4" />
+      <polygon points="60,40 70,25 80,40 70,55" fill="#0891B2" />
+      <polygon points="0,40 10,25 20,40 10,55" fill="#0E7490" />
+
+      <!-- Islimi Gold & Amber Ikat Feathers -->
+      <path d="M25,40 L30,32 L35,40 L30,48 Z" fill="#F59E0B" />
+      <path d="M65,40 L70,32 L75,40 L70,48 Z" fill="#FBBF24" />
+      <path d="M0,65 Q20,55 40,65 T80,65 L80,78 Q60,68 40,78 T0,78 Z" fill="#D97706" />
+
+      <!-- Emerald Green Vertical Ikat Zig-Zags -->
+      <path d="M15,50 L25,45 L20,60 L10,55 Z" fill="#10B981" />
+      <path d="M55,50 L65,45 L60,60 L50,55 Z" fill="#059669" />
+    </pattern>
+
+    <!-- Drop Shadow for Numbers -->
+    <filter id="ikatShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- NUMBER 1 -->
+  <path d="M35,30 L65,15 L65,135 L40,135 L40,55 L20,70 Z" 
+        fill="url(#uzbekIkat)" 
+        stroke="#0F172A" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#ikatShadow)" />
+
+  <!-- NUMBER 8 -->
+  <path d="M135,15 
+           C165,15 185,30 185,55 
+           C185,72 172,83 158,88 
+           C175,93 190,106 190,125 
+           C190,150 168,165 135,165 
+           C102,165 80,150 80,125 
+           C80,106 95,93 112,88 
+           C98,83 85,72 85,55 
+           C85,30 105,15 135,15 Z
+           M135,38 
+           C118,38 110,46 110,56 
+           C110,66 118,74 135,74 
+           C152,74 160,66 160,56 
+           C160,46 152,38 135,38 Z
+           M135,96 
+           C114,96 105,106 105,118 
+           C105,130 114,140 135,140 
+           C156,140 165,130 165,118 
+           C165,106 156,96 135,96 Z" 
+        fill="url(#uzbekIkat)" 
+        fill-rule="evenodd"
+        stroke="#0F172A" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#ikatShadow)" />
+
+  <!-- NUMBER 9 -->
+  <path d="M255,15 
+           C288,15 315,36 315,75 
+           C315,115 288,160 235,160 
+           L220,160 L225,138 L240,138 
+           C270,138 288,108 288,78 
+           L285,78 
+           C278,88 266,95 250,95 
+           C225,95 205,78 205,55 
+           C205,32 226,15 255,15 Z
+           M258,38 
+           C240,38 230,46 230,56 
+           C230,66 240,74 258,74 
+           C275,74 286,66 286,56 
+           C286,46 275,38 258,38 Z" 
+        fill="url(#uzbekIkat)" 
+        fill-rule="evenodd"
+        stroke="#0F172A" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#ikatShadow)" />
+</svg>
